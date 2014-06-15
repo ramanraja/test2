@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<!-- saved from url=(0014)about:internet -->
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=9" >
+
+<title>Read-And-Delete</title>
+
+<style type="text/css">
+body, td {
+   font-family: sans-serif;
+   background-color: white;
+   font-size: 12px;
+   margin: 8px;
+}
+
+tt, code, pre {
+   font-family: 'DejaVu Sans Mono', 'Droid Sans Mono', 'Lucida Console', Consolas, Monaco, monospace;
+}
+
+h1 { 
+   font-size:2.2em; 
+}
+
+h2 { 
+   font-size:1.8em; 
+}
+
+h3 { 
+   font-size:1.4em; 
+}
+
+h4 { 
+   font-size:1.0em; 
+}
+
+h5 { 
+   font-size:0.9em; 
+}
+
+h6 { 
+   font-size:0.8em; 
+}
+
+a:visited {
+   color: rgb(50%, 0%, 50%);
+}
+
+pre {	
+   margin-top: 0;
+   max-width: 95%;
+   border: 1px solid #ccc;
+   white-space: pre-wrap;
+}
+
+pre code {
+   display: block; padding: 0.5em;
+}
+
+code.r, code.cpp {
+   background-color: #F8F8F8;
+}
+
+table, td, th {
+  border: none;
+}
+
+blockquote {
+   color:#666666;
+   margin:0;
+   padding-left: 1em;
+   border-left: 0.5em #EEE solid;
+}
+
+hr {
+   height: 0px;
+   border-bottom: none;
+   border-top-width: thin;
+   border-top-style: dotted;
+   border-top-color: #999999;
+}
+
+@media print {
+   * { 
+      background: transparent !important; 
+      color: black !important; 
+      filter:none !important; 
+      -ms-filter: none !important; 
+   }
+
+   body { 
+      font-size:12pt; 
+      max-width:100%; 
+   }
+       
+   a, a:visited { 
+      text-decoration: underline; 
+   }
+
+   hr { 
+      visibility: hidden;
+      page-break-before: always;
+   }
+
+   pre, blockquote { 
+      padding-right: 1em; 
+      page-break-inside: avoid; 
+   }
+
+   tr, img { 
+      page-break-inside: avoid; 
+   }
+
+   img { 
+      max-width: 100% !important; 
+   }
+
+   @page :left { 
+      margin: 15mm 20mm 15mm 10mm; 
+   }
+     
+   @page :right { 
+      margin: 15mm 10mm 15mm 20mm; 
+   }
+
+   p, h2, h3 { 
+      orphans: 3; widows: 3; 
+   }
+
+   h2, h3 { 
+      page-break-after: avoid; 
+   }
+}
+
+</style>
+
+
+
+<!-- MathJax scripts -->
+<script type="text/javascript" src="https://c328740.ssl.cf1.rackcdn.com/mathjax/2.0-latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+
+
+</head>
+
+<body>
+<h2>Read-And-Delete</h2>
+
+<ol>
+<li>Edit YAML front matter</li>
+<li>Write using R Markdown</li>
+<li>Use an empty line followed by three dashes to separate slides!</li>
+</ol>
+
+<h3>Let us do some maths:</h3>
+
+<p>\[ roots = -b \pm \frac{\sqrt{b^2-4ac}}{2a} \]</p>
+
+<p>&mdash; .class #id </p>
+
+<h2>Slide 2</h2>
+
+<ol>
+<li>Slide 2 is also devoid of substance</li>
+<li>But I will find something to fill it with</li>
+</ol>
+
+<h3>Bulleted List</h3>
+
+<ul>
+<li>Why is this called a bullet ?</li>
+<li>because it can kill !</li>
+</ul>
+
+<hr/>
+
+<h2>Plotting graphs</h2>
+
+<p><img src="data:image/png;base64,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" alt="plot of chunk unnamed-chunk-1"/> </p>
+
+</body>
+
+</html>
+
